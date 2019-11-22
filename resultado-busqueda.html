@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Mansilla Abadie Jaichenco</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+    <link href="https://getbootstrap.com/docs/4.3/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+<link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link href="https://getbootstrap.com/docs/4.3/examples/carousel/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="https://acasti8.files.wordpress.com/2018/03/cropped-logo_alba-mc2aa-castillc3b3-pc3a9rez.png" width="60"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="generos.html">Géneros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resultado-busqueda-avanzada.html">Buscador Avanzado</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0 formMenu" method="post" action="resultado-busqueda.html" id="formularioMenu">
+        <input class="form-control mr-sm-2" name="inputMenuSearch" type="text" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+</header>
+<main role="main">
+  <div class="container marketing">
+
+
+     <form class="form-inline mt-2 mt-md-0 formCentral" method="post" action="resultado-busqueda.html" id="formularioCentral">
+  <input class="form-control form-control-sm ml-3 w-75 search" type="text" placeholder="Search"
+    aria-label="Search" name="inputCentral">
+    <button class="btn btn-outline-success my-2 my-sm-0 buscar" type="submit">Buscar</button>
+</form>
+
+    <div class="alert alert-danger" role="alert" hidden id="mensaje">
+      No se han encontrado resultados para tu búsqueda
+    </div>
+
+
+    <h1>Resultados de búsqueda: <i class="palabraName"></i></h1>
+    <div class="row resultadosBusqueda">
+    </div><!-- /.row -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+<footer class="footer mt-auto py-3">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-11">
+      Justo Mansilla | Mora Jaichenco | Joaquin Fernandez Abadie
+
+    </div>
+    <div class="col-lg-1">
+      <img width="70" src="https://www.themoviedb.org/assets/2/v4/logos/312x276-primary-green-74212f6247252a023be0f02a5a45794925c3689117da9d20ffe47742a665c518.png">
+    </div>
+  </div>
+  </div>
+</footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
+      <script src="js/formularioMenu.js"></script>
+      <script src="js/resultado-busqueda.js"></script>
+</html>
